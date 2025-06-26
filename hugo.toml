@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = "Azmi's Blog"
 theme = 'PaperMod'
 
+[pagination]
+pagerSize = 10
+
 [params]
 ShowReadingTime = false
 ShowShareButtons = false
