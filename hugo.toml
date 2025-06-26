@@ -1,0 +1,23 @@
+baseURL = 'https://azmisblog.netlify.app'
+languageCode = 'en-us'
+title = "Azmi's Blog"
+theme = 'PaperMod'
+
+[params]
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = false
+ShowToc = false
+comments = false
+
+[params.homeInfoParams]
+Title = "Azmi"
+Content = "My thoughts, shared with you. One day at a time"
+    
+[menu]
+[[menu.main]]
+name = "Archive"
+url = "/posts/"
+weight = 10
