@@ -2,10 +2,10 @@ baseURL = 'https://azmisblog.netlify.app'
 languageCode = 'en-us'
 title = "Azmi's Blog"
 theme = 'PaperMod'
-
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 [pagination]
-pagerSize = 10
-
+pagerSize = 5
 [params]
 ShowReadingTime = false
 ShowShareButtons = false
@@ -14,7 +14,6 @@ ShowBreadCrumbs = false
 ShowCodeCopyButtons = false
 ShowToc = false
 comments = false
-
 [params.homeInfoParams]
 Title = "Azmi"
 Content = "My thoughts, shared with you. One day at a time"
