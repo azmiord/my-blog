@@ -15,11 +15,11 @@ ShowCodeCopyButtons = false
 ShowToc = false
 comments = false
 [params.homeInfoParams]
-Title = "Azmi"
+Title = "Welcome to my Blog"
 Content = "My thoughts, shared with you. One day at a time"
     
 [menu]
 [[menu.main]]
-name = "Archive"
+name = "See all post"
 url = "/posts/"
 weight = 10
